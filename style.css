@@ -13,11 +13,17 @@ h1 {
 	text-align: center ;
 	color: lightgreen ;
 }
-
+TestOne {
+    text-align: center ;
+    padding-right: 10px;
+	color: rgb(136, 0, 255) ;
+}
 header h1 {
 	font-size: 40px ;
 }
-
+header TestOne {
+    font-size: 40px ;
+}
 h2 {
 	text-align: center ;
 	color: deeppink ;
@@ -57,7 +63,7 @@ code {
 }
 pre {
 	background: #111222 ;
-	border: 1px solid lime ;
+	border: 1px solid rgb(255, 0, 183) ;
 	border-radius: 20px ;
 	padding: 1em ;
 	white-space: pre-wrap;
@@ -189,26 +195,6 @@ aside.callout  {
 .ll dd:after {
 	display:block;
 	content: '' ;
-}
-
-
-/* These settings are for the cryptocurrency donation QR codes and info on the
- * main page. */
-.qr { max-width: 150px ; padding: 10px; border: none; }
-.cryptocontainer {
-    display: flex ;
-    flex-wrap: wrap ;
-    justify-content: center ;
-}
-.cryptoinfo {
-    max-width: 350px ;
-    text-align: center ;
-    padding-left: 10px ;
-    padding-right: 10px ;
-}
-.cryptoinfo code,.crypto {
-	font-size: small ;
-	overflow-wrap: break-word ;
 }
 
 /* The "Next Article" Button changes color and also has a 👉 automatically
